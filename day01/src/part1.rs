@@ -1,4 +1,4 @@
-use std::{fs};
+use std::fs;
 
 fn main() {
     let input = fs::read_to_string("./day01-input.txt").expect("Should be able to read the file");
