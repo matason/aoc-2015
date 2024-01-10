@@ -2,7 +2,7 @@ use std::fs;
 
 fn main() {
     let input: String = fs::read_to_string("./day02-input.txt").expect("Should be able to read the file");
-   println!("{}", run(input))
+    println!("{}", run(input))
 }
 
 fn run(input: String) -> i32 {
