@@ -36,7 +36,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn it_words() {
+    fn it_works() {
         assert_eq!(2, run(String::from("ugknbfddgicrmopn\naaa\njchzalrnumimnmhp\nhaegwjzuvuyypxyu\ndvszwmarrgswjxmb")));
     }
 }
